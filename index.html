@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- link fonts internet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    
+    <!-- imagem do titulo página -->
+    <link rel="icon" href="./assets/img/logo.jpg">
+
+    <!-- link css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Viagem Para Você</title>
+</head>
+<body>
+    <!-- nav header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container pt-1 pb-1">
+            <a href="#" class="navbar-brand">Viagem Para Você</a>
+            <button class="navbar-toggler" type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <!-- Button Icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+            </button>
+            <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <!-- botão para telas menores -->
+                    <li class="nav-item d-block d-md-none d-lg-none pt-2 pb-2">
+                        <a href="#" type="button" class="btn btn-orange w-100 rounded-0">Login</a>
+                    </li>
+                    <!-- end botão menor -->
+                    <li class="nav-item d-none d-md-block d-lg-block">
+                        <a href="#" type="button" class="btn btn-orange rounded-0 ps-lg-5 pe-lg-5">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <main class="w-100 min-vh-100 bg-banner d-flex align-items-center">
+        <div class="container">
+            <div class="card rounded-1 border-1 p-1 pt-4 pb-4 p-lg-4 pb-md-0 pb-lg-0 shadow">
+                <div class="card-body">
+                    <form class="pb-lg-2" onsubmit="return false;">
+                        <div class="row">
+                            <div class="col-12 col-md-12 col-lg-3 mb-3">
+                                <label for="location" class="form-label fw-bold">Localização</label>
+                                <input type="text" 
+                                class="form-control rounded-1"
+                                name="location"
+                                id="location"
+                                placeholder="Digite a localização">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-12 col-lg-2 mb-3">
+                                <label for="entrance" class="form-label fw-bold">Entrada</label>
+                                <input type="date" 
+                                class="form-control rounded-1"
+                                name="entrance"
+                                id="entrance">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-12 col-lg-2 mb-3">
+                                <label for="getout" class="form-label fw-bold">Saída</label>
+                                <input type="date" 
+                                class="form-control rounded-1"
+                                name="getout"
+                                id="getout">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-12 col-lg-2 mb-3">
+                                <label for="getout" class="form-label fw-bold">Destino</label>
+                                <select name="sesson" id="sesson"
+                                class="form-select rounded-1"
+                                aria-label="Selecione o período">
+                                    <option value="" selected>Selecione uma opção</option>
+                                    <option value="beach" >Praia</option>
+                                    <option value="montain">Montanhas</option>
+                                    <option value="camping">Campo fazendas</option>
+                                    <option value="bigcity">Grandes Cidades</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-md-12 col-lg-3 mb-3 pt-3 d-lg-flex align-items-end">
+                                <a href="#" class="btn btn-lg btn-orange w-100 rounded-1 border-1 p-lg-1">Pesquisar</a>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    
+</body>
+
+<!-- Link scripts -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
+</html>

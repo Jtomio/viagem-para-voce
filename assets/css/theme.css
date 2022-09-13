@@ -1,0 +1,41 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
+
+
+/* Reset project */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+}
+
+/* roots */
+
+
+
+:root {
+    /* Colors */
+    --bg-yellow: #f4c404;
+    --bg-white: #fff;
+    --bg-white-2: #f2f4f2;
+    --bg-blue: #254c94;
+    --bg-black: #000;
+
+    
+    --bg-linear: linear-gradient(60deg, #8caccc 0%,#254c94 100%);
+    --bg-shadow: 0 25px 40px rgba(0, 0, 0, 0.5);
+
+    /* Fonts */
+    --font-family: 'Ruda', sans-serif;
+    --weight-md: 400;
+    
+}

@@ -1,0 +1,9 @@
+.btn-orange {
+    color: var(--bg-white-2);
+    background: var(--bg-blue);
+    outline: none;
+    box-shadow: none;
+    font-size: 1rem;
+    font-family: var(--font-family);
+    font-size: var(--size-md);
+}
