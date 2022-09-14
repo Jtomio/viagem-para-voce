@@ -1,13 +1,8 @@
-.bg-banner {
+.background-banner {
     width: 100%;
     height: 100%;
-    background-image: url(../img/banners/banner-home.jpeg);
+    background-image: url('../img/banners/banner-home.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
-
-.logo-header {
-    width: 100px;
-    height: 60px;
 }

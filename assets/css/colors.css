@@ -1,0 +1,14 @@
+.bg-color-blue {
+    color: var(--bg-white);
+    background-color: var(--bg-blue);
+}
+
+.bg-color-linear {
+    color: var(--bg-white);
+    background-color: var(--bg-linear);
+}
+
+.bg-color-yellow {
+    color: var(--bg-white);
+    background-color: var(--bg-yellow);
+}
