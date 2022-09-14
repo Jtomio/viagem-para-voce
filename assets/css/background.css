@@ -7,6 +7,16 @@
     background-repeat: no-repeat;
 }
 
+.bg-search {
+    width: 50%;
+    height: 60vh;
+    background-image: url(../img/banners/banner-resultado-1.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+
 .logo-header {
     width: 100px;
     height: 60px;

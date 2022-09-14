@@ -24,18 +24,18 @@ html, body {
 
 :root {
     /* Colors */
-    --bg-yellow: #f4c404;
-    --bg-white: #fff;
-    --bg-white-2: #f2f4f2;
-    --bg-blue: #254c94;
-    --bg-black: #000;
-
+    --bg-yellow:    #f4c404;
+    --bg-white:     #fff;
+    --bg-white-2:   #f2f4f2;
+    --bg-blue:      #254c94;
+    --bg-black:     #000;
+    --bg-red:       #fc0000;
     
-    --bg-linear: linear-gradient(60deg, #8caccc 0%,#254c94 100%);
-    --bg-shadow: 0 25px 40px rgba(0, 0, 0, 0.5);
+    --bg-linear:    linear-gradient(60deg, #8caccc 0%,#254c94 100%);
+    --bg-shadow:    0 25px 40px rgba(0, 0, 0, 0.5);
 
     /* Fonts */
     --font-family: 'Ruda', sans-serif;
-    --weight-md: 400;
+    --weight-md:    400;
     
 }

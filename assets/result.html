@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- link fonts internet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    
+    <!-- imagem do titulo página -->
+    <link rel="icon" href="../assets/img/banners/logo.jpg">
+
+    <!-- link css -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Viagem Para Você</title>
+</head>
+<body>
+    <!-- nav header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container pt-1 pb-1">
+            <img src="../assets/img/banners/logo_header.png" alt="" class="logo-header d-none">
+            <a href="#" class="navbar-brand fw-bold">Viagem Para Você</a>
+            <button class="navbar-toggler" type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <!-- Button Icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+            </button>
+            <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <!-- botão para telas menores -->
+                    <li class="nav-item d-block d-md-none d-lg-none pt-2 pb-2">
+                        <a href="../assets/login.html" type="button" class="btn btn-blue w-100 rounded-1">Login</a>
+                    </li>
+                    <!-- end botão menor -->
+                    <li class="nav-item d-none d-md-block d-lg-block">
+                        <a href="../assets/login.html" type="button" class="btn btn-blue rounded-0 ps-lg-5 pe-lg-5">Login</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+
+    </nav>
+    <!-- Banner project -->
+    <main class="w-100 bg-search d-flex align-items-center">
+        <!-- Container first-Search -->
+        <div class="container">
+            <div class="card rounded-1 border-1 p-1 pt-4 pb-4 p-lg-4 pb-md-0 pb-lg-0 shadow">
+                <div class="card-body">
+                    <form class="pb-lg-2" onsubmit="return false;">
+                        <div class="row">
+                            <div class="col-12 col-md-12 col-lg-3 mb-3">
+                                <label for="location" class="form-label fw-bold">Localização</label>
+                                <input type="text" 
+                                class="form-control rounded-1"
+                                name="location"
+                                id="location"
+                                placeholder="Digite a localização">
+                            </div>
+                            <div class="col-12 col-md-12 col-lg-2 mb-3">
+                                <label for="entrance" class="form-label fw-bold">Entrada</label>
+                                <input type="date" 
+                                class="form-control rounded-1"
+                                name="entrance"
+                                id="entrance">
+                            </div>
+                            <div class="col-12 col-md-12 col-lg-2 mb-3">
+                                <label for="getout" class="form-label fw-bold">Saída</label>
+                                <input type="date" 
+                                class="form-control rounded-1"
+                                name="getout"
+                                id="getout">
+                            </div>
+                            <div class="col-12 col-md-12 col-lg-2 mb-3">
+                                <label for="getout" class="form-label fw-bold">Destino</label>
+                                <select name="destination" id="destination"
+                                class="form-select rounded-0"
+                                aria-label="Selecione o período">
+                                    <option value="" selected>Para onde?</option>
+                                    <option value="beach" >Praia</option>
+                                    <option value="montain">Montanhas</option>
+                                    <option value="camping">Campo fazendas</option>
+                                    <option value="bigcity">Grandes Cidades</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-md-12 col-lg-3 mb-3 pt-3 d-lg-flex align-items-end">
+                                <a href="#" class="btn btn-lg btn-blue w-100 rounded-1 border-1 p-lg-1">Pesquisar</a>
+                            </div>
+                        </div>   
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <main class="w-100 min-vh-100">
+        <div class="container pt-4 pt-lg-5 pblg5">
+            <div class="row">
+                <!-- d-none d-md-none -->
+                <div class=" d-lg-block col-lg-3">
+                    <div class="card h-100 rounded-0">
+                        <div class="card-body">
+                            <!-- Covid filter -->
+                            <div class="w-100 pb-4 border-bottom">
+                                <div class="card-title d-flex align-items-baseline">
+                                    <h4 class="fs-5 fw-bold me-2">Covid</h4>
+                                    <button type="button" class="btn btn-tooltip-default"
+                                    data-bs-toggle="tooltip" data-bs-placement="right" title="Informação">
+                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+   
+    <!-- container footer -->
+    <footer class="w-100 bg-light">
+        <div class="container pt-5 pt-lg-5 pb-lg-3">
+            <div class="row">
+                <div class="col-12 col-md-3 col-lg-4 mb-3 mb-md-0 mb-lg-0">
+                   <h4 class="fs-4 fw-bold mb-2 mb-md-4 mb-lg-4">Viagem para você</h4> 
+                   <p class="text-muted">
+                        Somos apaixonados por viagens e conhecer novos lugares, 
+                        isso nós faz compartilhar experiências e descontos para
+                        seu próximo destino.
+                   </p>
+                   <p>
+                        <a href="#" title="Facebook" class="text-decoration-none text-muted me-1 me-md-1 me-lg-2">
+                            <i class="fa fa-facebook" aria-hidden></i>
+                        </a>
+                        <a href="https://www.instagram.com/viagem.paravoce/" target="_blank" title="Instagram" class="text-decoration-none text-muted me-1 me-md-1 me-lg-2">
+                            <i class="fa fa-instagram" aria-hidden></i>
+                        </a>
+                        <a href="#" title="Youtube" class="text-decoration-none text-muted me-1 me-md-1 me-lg-2">
+                            <i class="fa fa-youtube-play" aria-hidden></i>
+                        </a>
+                   </p>
+                </div>
+                <div class="col-12 col-md-3 col-lg-4 pe-lg-0 ps-lg-5 mb-3 mb-md-0 mb-lg-0">
+                    <h4 class="fs-4 fw-bold mb-2 mb-md-4 mb-lg-4">Minha conta</h4>
+                    <p class="mb-0">
+                        <a href="#" class="text-decoration-none text-muted">Minhas viagens</a>
+                    </p>
+                    <p class="mb-0">
+                        <a href="#" class="text-decoration-none text-muted">Meu perfil</a>
+                    </p>
+                </div>
+                <div class="col-12 col-md-3 col-lg-4 mb-3 mb-md-0 mb-lg-0">
+                    <h4 class="fs-4 fw-bold mb-2 mb-md-4 mb-lg-4">Informações adicionais</h4>
+                    <p class="mb-0">
+                        <a href="#" class="text-decoration-none text-muted">Termos e condições</a>
+                    </p>
+                    <p class="mb-0">
+                        <a href="#" class="text-decoration-none text-muted">Política de privacidade</a>
+                    </p>
+                    <p class="mb-0">
+                        <a href="#" class="text-decoration-none text-muted">Condições de uso</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="w-100 bg-color-blue d-flex justify-content-center align-items-center">
+            <p class="mb-0 pt-1 pb-1">
+                &copy; Todos os direitos reservados
+            </p>
+        </div>
+    </footer>
+
+</body>
+<!-- Link scripts -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/857f64b768.js" crossorigin="anonymous"></script>
+</html>
