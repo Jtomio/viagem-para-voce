@@ -1,55 +1,55 @@
 .btn-blue {
-    color: var(--bg-white-2);
-    background: var(--bg-blue);
-    outline: none;
-    box-shadow: none;
-    font-size: 1rem;
-    font-family: var(--font-family);
-    font-size: var(--size-md);
+  color: var(--bg-white-2);
+  background: var(--bg-blue);
+  outline: none;
+  box-shadow: none;
+  font-size: 1rem;
+  font-family: var(--font-family);
+  font-size: var(--size-md);
 }
 .btn-blue:hover {
-    color: var(--bg-blue);
-    background-color: transparent;
-    outline: 2px solid var(--bg-blue);
-    box-shadow: none;
-    font-size: 1rem;
-    font-family: var(--font-family);
-    font-weight: var(--weight-md);
+  color: var(--bg-blue);
+  background-color: transparent;
+  outline: 2px solid var(--bg-blue);
+  box-shadow: none;
+  font-size: 1rem;
+  font-family: var(--font-family);
+  font-weight: var(--weight-md);
 }
 
 .btn-red {
-    color: var(--bg-white-2);
-    background: var(--bg-red);
-    outline: none;
-    box-shadow: none;
-    font-size: 1rem;
-    font-family: var(--font-family);
-    font-size: var(--size-md);
-    margin-top: 10px;
+  color: var(--bg-white-2);
+  background: var(--bg-red);
+  outline: none;
+  box-shadow: none;
+  font-size: 1rem;
+  font-family: var(--font-family);
+  font-size: var(--size-md);
+  margin-top: 10px;
 }
 
 .btn-red:hover {
-    color: var(--bg-blue);
-    background-color: transparent;
-    outline: 2px solid var(--bg-red);
-    box-shadow: none;
-    font-size: 1rem;
-    font-family: var(--font-family);
-    font-weight: var(--weight-md);
+  color: var(--bg-blue);
+  background-color: transparent;
+  outline: 2px solid var(--bg-red);
+  box-shadow: none;
+  font-size: 1rem;
+  font-family: var(--font-family);
+  font-weight: var(--weight-md);
 }
 
 .btn-blue-outline {
-    color: var(--bg-blue);
-    background-color: transparent;
-    outline: 2px solid var(--bg-blue);
-    box-shadow: none;
-    font-size: 1rem;
-    font-family: var(--font-family);
-    font-weight: var(--weight-md);
+  color: var(--bg-blue);
+  background-color: transparent;
+  outline: 2px solid var(--bg-blue);
+  box-shadow: none;
+  font-size: 1rem;
+  font-family: var(--font-family);
+  font-weight: var(--weight-md);
 }
 .btn-blue-outline:hover {
-    color: var(--bg-white-2);
-    background-color: var(--bg-blue);
-    outline: none;
-    border-radius: 0px;
+  color: var(--bg-white-2);
+  background-color: var(--bg-blue);
+  outline: none;
+  border-radius: 0px;
 }
