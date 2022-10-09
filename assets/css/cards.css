@@ -22,3 +22,7 @@
 .fa-star {
   color: var(--bg-yellow);
 }
+
+.wsmall {
+  width: 90px;
+}
